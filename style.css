@@ -1,0 +1,31 @@
+/* A small, plain document. No fonts, scripts, or build step. */
+html {
+  color-scheme: light;
+  background: #fff;
+  color: #111;
+}
+
+body {
+  max-width: 40rem;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+h1 { font-size: 2rem; line-height: 1.2; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.125rem; margin-bottom: 0; }
+h3 + p { margin-top: 0.25rem; }
+a { color: #0000ee; }
+a:visited { color: #551a8b; }
+a:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
+hr { border: 0; border-top: 1px solid #aaa; margin: 1.75rem 0; }
+section + section { margin-top: 1.75rem; }
+footer { color: #555; }
+
+@media (max-width: 32rem) {
+  body { margin: 1.5rem auto; }
+}
